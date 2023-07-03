@@ -25,13 +25,13 @@ The speed calculated by the estimateSpeed function is used to determine if the v
 <h2>Results:</h2>
 
 ![image](https://github.com/venkataKoushik/Vehicle-Detection-and-Speed-Tracking/assets/123009890/3077051d-6a34-41f5-ad58-720965b7c78f)
-**Video infront of SASTRA DEEMED UNIVERSITY (real time input)**``
+**Video infront of SASTRA DEEMED UNIVERSITY (real time input)**
 
 ![image](https://github.com/venkataKoushik/Vehicle-Detection-and-Speed-Tracking/assets/123009890/170ffdb4-4dd2-45f5-81a6-c6cae29bcc47)
-**`Vehicle's data`**
+**Vehicle's Data**
 
 ![image](https://github.com/venkataKoushik/Vehicle-Detection-and-Speed-Tracking/assets/123009890/7f4b15ac-c8c4-49e6-af46-0c2a6046643c)
-`Overspeeding Vehicle's Images`****
+**Over speedig Vehicle's Images**
 
 
 
