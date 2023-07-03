@@ -7,7 +7,19 @@ After identifying the over speeding vehicles, the number plate of these vehicles
 
 <h2>Work Flow:</h2>
 
-![Uploading image.png…]()
+![image](https://github.com/venkataKoushik/Vehicle-Detection-and-Speed-Tracking/assets/123009890/9fb94aad-838d-4b82-80e5-fff99f80faf7)
+
+<h2>Spped Calculation</h2>
+<p>To calculate the speed, the function subtracts the start time of the vehicle from the end time to determine the time taken to travel the marked area. This time is then used to calculate the speed by dividing the length of the marked area by the time taken, resulting in meters per second.</p>
+![image](https://github.com/venkataKoushik/Vehicle-Detection-and-Speed-Tracking/assets/123009890/6fd21b1c-7c4b-41e7-8d06-1cf30896acfc)   ![Uploading image.png…]()
+
+In the provided figure, the vehicle is detected at mark1 in the ith frame, and it crosses mark2 in the nth frame. The number of frames between mark1 and mark2 is (n - i). Considering a video running at 60 frames per second (FPS), the time taken for (n - i) frames is calculated as (n - i) / 60 seconds.
+
+Therefore, the time taken between mark1 and mark2 is determined by dividing the difference of frames by the FPS. The velocity is then calculated by dividing the mark gap by the time difference and multiplying by 3.6 to convert it to kilometers per hour.
+
+To convert the speed from meters per second to kilometers per hour, the calculated value is multiplied by 3.6. The final speed is rounded to two decimal places.
+
+The speed calculated by the estimateSpeed function is used to determine if the vehicle is overspeeding or not.
 
 
 
