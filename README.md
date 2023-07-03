@@ -7,12 +7,7 @@ After identifying the over speeding vehicles, the number plate of these vehicles
 
 <h2>Work Flow:</h2>
 
-Video Frames --> OpenCV & DLib Processing --> Processed Frames--> 
-Haar Cascade Classifier --> Detected Vehicles--> Two Marks & Distance Calculation 
---> Calculated Speed --> Save Images, Speed, Date, and Time --> Over-Speeding Vehicle Images
+![Uploading image.png…]()
 
-Over-Speeding Vehicle Images --> Grayscale Conversion, Edge Detection, Contour Detection, Thresholding --> Isolated License Plate
- --> Largest Contour Selection, Area Extraction, Enhancement --> Enhanced License Plate
---> OCR (Optical Character Recognition) --> Extracted License Plate Numbers
 
 
