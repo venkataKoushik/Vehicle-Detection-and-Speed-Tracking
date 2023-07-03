@@ -28,10 +28,22 @@ The speed calculated by the estimateSpeed function is used to determine if the v
 **Video infront of SASTRA DEEMED UNIVERSITY (real time input)**
 
 ![image](https://github.com/venkataKoushik/Vehicle-Detection-and-Speed-Tracking/assets/123009890/170ffdb4-4dd2-45f5-81a6-c6cae29bcc47)
+
 **Vehicle's Data**
 
 ![image](https://github.com/venkataKoushik/Vehicle-Detection-and-Speed-Tracking/assets/123009890/7f4b15ac-c8c4-49e6-af46-0c2a6046643c)
+
 **Over speedig Vehicle's Images**
+
+![image](https://github.com/venkataKoushik/Vehicle-Detection-and-Speed-Tracking/assets/123009890/6b114700-9108-4834-a9d7-8079336b57c2)
+
+**Sample Number Plates**
+
+![image](https://github.com/venkataKoushik/Vehicle-Detection-and-Speed-Tracking/assets/123009890/053f2967-f255-4384-88d4-71de596b5b66)
+
+**Recognition of Number plate numbers**
+
+
 
 
 
