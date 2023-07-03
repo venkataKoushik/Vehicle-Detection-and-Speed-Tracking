@@ -9,9 +9,11 @@ After identifying the over speeding vehicles, the number plate of these vehicles
 
 ![image](https://github.com/venkataKoushik/Vehicle-Detection-and-Speed-Tracking/assets/123009890/43d1d800-9b58-4d37-8245-de56e063376b)
 
-<h2>Spped Calculation</h2>
+<h2>Speed Calculation</h2>
 <p>To calculate the speed, the function subtracts the start time of the vehicle from the end time to determine the time taken to travel the marked area. This time is then used to calculate the speed by dividing the length of the marked area by the time taken, resulting in meters per second.</p>
-![image](https://github.com/venkataKoushik/Vehicle-Detection-and-Speed-Tracking/assets/123009890/6fd21b1c-7c4b-41e7-8d06-1cf30896acfc)   ![Uploading image.png…]()
+
+![image](https://github.com/venkataKoushik/Vehicle-Detection-and-Speed-Tracking/assets/123009890/3a19e586-9d82-45f4-ae0a-ebe1534fdc2b)
+![image](https://github.com/venkataKoushik/Vehicle-Detection-and-Speed-Tracking/assets/123009890/128b3d5a-8cf7-4269-ad5d-7eefde6909e7)
 
 In the provided figure, the vehicle is detected at mark1 in the ith frame, and it crosses mark2 in the nth frame. The number of frames between mark1 and mark2 is (n - i). Considering a video running at 60 frames per second (FPS), the time taken for (n - i) frames is calculated as (n - i) / 60 seconds.
 
