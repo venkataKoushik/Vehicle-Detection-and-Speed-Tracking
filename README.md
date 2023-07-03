@@ -7,7 +7,7 @@ After identifying the over speeding vehicles, the number plate of these vehicles
 
 <h2>Work Flow:</h2>
 
-![image](https://github.com/venkataKoushik/Vehicle-Detection-and-Speed-Tracking/assets/123009890/9fb94aad-838d-4b82-80e5-fff99f80faf7)
+![image](https://github.com/venkataKoushik/Vehicle-Detection-and-Speed-Tracking/assets/123009890/43d1d800-9b58-4d37-8245-de56e063376b)
 
 <h2>Spped Calculation</h2>
 <p>To calculate the speed, the function subtracts the start time of the vehicle from the end time to determine the time taken to travel the marked area. This time is then used to calculate the speed by dividing the length of the marked area by the time taken, resulting in meters per second.</p>
