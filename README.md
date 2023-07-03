@@ -5,4 +5,14 @@
 <p>If a vehicle is over speeding, an image of the vehicle is saved along with its speed, date, and time. The script can be used for monitoring traffic speed and identifying over speeding vehicles in a video.
 After identifying the over speeding vehicles, the number plate of these vehicles is detected. This report includes a description of the script's functionality, its implementation details, and examples of its usage.</p>
 
+<h2>Work Flow:</h2>
+
+Video Frames --> OpenCV & DLib Processing --> Processed Frames--> 
+Haar Cascade Classifier --> Detected Vehicles--> Two Marks & Distance Calculation 
+--> Calculated Speed --> Save Images, Speed, Date, and Time --> Over-Speeding Vehicle Images
+
+Over-Speeding Vehicle Images --> Grayscale Conversion, Edge Detection, Contour Detection, Thresholding --> Isolated License Plate
+ --> Largest Contour Selection, Area Extraction, Enhancement --> Enhanced License Plate
+--> OCR (Optical Character Recognition) --> Extracted License Plate Numbers
+
 
